@@ -109,6 +109,7 @@
 		D24F449F1C92B1E400CDE60E /* JapanQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D24F44DB1C92B79B00CDE60E /* Images */,
 				D24F44A01C92B1E400CDE60E /* AppDelegate.swift */,
 				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
 				D24F44A41C92B1E400CDE60E /* Main.storyboard */,
@@ -141,6 +142,13 @@
 				D24F44C51C92B1E500CDE60E /* Info.plist */,
 			);
 			path = JapanQuizUITests;
+			sourceTree = "<group>";
+		};
+		D24F44DB1C92B79B00CDE60E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
