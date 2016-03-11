@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44A01C92B1E400CDE60E /* AppDelegate.swift */; };
+		D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44A21C92B1E400CDE60E /* ViewController.swift */; };
+		D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F44A41C92B1E400CDE60E /* Main.storyboard */; };
+		D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */; };
+		D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24F44AA1C92B1E400CDE60E /* Assets.xcassets */; };
+		D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */; };
+		D24F44B91C92B1E500CDE60E /* JapanQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44B81C92B1E500CDE60E /* JapanQuizTests.swift */; };
+		D24F44C41C92B1E500CDE60E /* JapanQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24F44B51C92B1E500CDE60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24F44951C92B1E400CDE60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F449C1C92B1E400CDE60E;
+			remoteInfo = JapanQuiz;
+		};
+		D24F44C01C92B1E500CDE60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24F44951C92B1E400CDE60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F449C1C92B1E400CDE60E;
+			remoteInfo = JapanQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24F449D1C92B1E400CDE60E /* JapanQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F44A01C92B1E400CDE60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24F44A21C92B1E400CDE60E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24F44A51C92B1E400CDE60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24F44A81C92B1E400CDE60E /* JapanQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JapanQuiz.xcdatamodel; sourceTree = "<group>"; };
+		D24F44AA1C92B1E400CDE60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24F44AD1C92B1E400CDE60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24F44AF1C92B1E400CDE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F44B41C92B1E500CDE60E /* JapanQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F44B81C92B1E500CDE60E /* JapanQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanQuizTests.swift; sourceTree = "<group>"; };
+		D24F44BA1C92B1E500CDE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F44BF1C92B1E500CDE60E /* JapanQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanQuizUITests.swift; sourceTree = "<group>"; };
+		D24F44C51C92B1E500CDE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24F449A1C92B1E400CDE60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44B11C92B1E500CDE60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44BC1C92B1E500CDE60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24F44941C92B1E400CDE60E = {
+			isa = PBXGroup;
+			children = (
+				D24F449F1C92B1E400CDE60E /* JapanQuiz */,
+				D24F44B71C92B1E500CDE60E /* JapanQuizTests */,
+				D24F44C21C92B1E500CDE60E /* JapanQuizUITests */,
+				D24F449E1C92B1E400CDE60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24F449E1C92B1E400CDE60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24F449D1C92B1E400CDE60E /* JapanQuiz.app */,
+				D24F44B41C92B1E500CDE60E /* JapanQuizTests.xctest */,
+				D24F44BF1C92B1E500CDE60E /* JapanQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24F449F1C92B1E400CDE60E /* JapanQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44A01C92B1E400CDE60E /* AppDelegate.swift */,
+				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
+				D24F44A41C92B1E400CDE60E /* Main.storyboard */,
+				D24F44AA1C92B1E400CDE60E /* Assets.xcassets */,
+				D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */,
+				D24F44AF1C92B1E400CDE60E /* Info.plist */,
+				D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */,
+			);
+			path = JapanQuiz;
+			sourceTree = "<group>";
+		};
+		D24F44B71C92B1E500CDE60E /* JapanQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44B81C92B1E500CDE60E /* JapanQuizTests.swift */,
+				D24F44BA1C92B1E500CDE60E /* Info.plist */,
+			);
+			path = JapanQuizTests;
+			sourceTree = "<group>";
+		};
+		D24F44C21C92B1E500CDE60E /* JapanQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */,
+				D24F44C51C92B1E500CDE60E /* Info.plist */,
+			);
+			path = JapanQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24F449C1C92B1E400CDE60E /* JapanQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F44C81C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuiz" */;
+			buildPhases = (
+				D24F44991C92B1E400CDE60E /* Sources */,
+				D24F449A1C92B1E400CDE60E /* Frameworks */,
+				D24F449B1C92B1E400CDE60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapanQuiz;
+			productName = JapanQuiz;
+			productReference = D24F449D1C92B1E400CDE60E /* JapanQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24F44B31C92B1E500CDE60E /* JapanQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F44CB1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizTests" */;
+			buildPhases = (
+				D24F44B01C92B1E500CDE60E /* Sources */,
+				D24F44B11C92B1E500CDE60E /* Frameworks */,
+				D24F44B21C92B1E500CDE60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24F44B61C92B1E500CDE60E /* PBXTargetDependency */,
+			);
+			name = JapanQuizTests;
+			productName = JapanQuizTests;
+			productReference = D24F44B41C92B1E500CDE60E /* JapanQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24F44BE1C92B1E500CDE60E /* JapanQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24F44CE1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizUITests" */;
+			buildPhases = (
+				D24F44BB1C92B1E500CDE60E /* Sources */,
+				D24F44BC1C92B1E500CDE60E /* Frameworks */,
+				D24F44BD1C92B1E500CDE60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24F44C11C92B1E500CDE60E /* PBXTargetDependency */,
+			);
+			name = JapanQuizUITests;
+			productName = JapanQuizUITests;
+			productReference = D24F44BF1C92B1E500CDE60E /* JapanQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24F44951C92B1E400CDE60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ScottKvitberg;
+				TargetAttributes = {
+					D24F449C1C92B1E400CDE60E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D24F44B31C92B1E500CDE60E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D24F449C1C92B1E400CDE60E;
+					};
+					D24F44BE1C92B1E500CDE60E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D24F449C1C92B1E400CDE60E;
+					};
+				};
+			};
+			buildConfigurationList = D24F44981C92B1E400CDE60E /* Build configuration list for PBXProject "JapanQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24F44941C92B1E400CDE60E;
+			productRefGroup = D24F449E1C92B1E400CDE60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24F449C1C92B1E400CDE60E /* JapanQuiz */,
+				D24F44B31C92B1E500CDE60E /* JapanQuizTests */,
+				D24F44BE1C92B1E500CDE60E /* JapanQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24F449B1C92B1E400CDE60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
+				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
+				D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44B21C92B1E500CDE60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44BD1C92B1E500CDE60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24F44991C92B1E400CDE60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */,
+				D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */,
+				D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44B01C92B1E500CDE60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F44B91C92B1E500CDE60E /* JapanQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24F44BB1C92B1E500CDE60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F44C41C92B1E500CDE60E /* JapanQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24F44B61C92B1E500CDE60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24F449C1C92B1E400CDE60E /* JapanQuiz */;
+			targetProxy = D24F44B51C92B1E500CDE60E /* PBXContainerItemProxy */;
+		};
+		D24F44C11C92B1E500CDE60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24F449C1C92B1E400CDE60E /* JapanQuiz */;
+			targetProxy = D24F44C01C92B1E500CDE60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24F44A41C92B1E400CDE60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24F44A51C92B1E400CDE60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24F44AD1C92B1E400CDE60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24F44C61C92B1E500CDE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24F44C71C92B1E500CDE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24F44C91C92B1E500CDE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JapanQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D24F44CA1C92B1E500CDE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JapanQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D24F44CC1C92B1E500CDE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JapanQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanQuiz.app/JapanQuiz";
+			};
+			name = Debug;
+		};
+		D24F44CD1C92B1E500CDE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JapanQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanQuiz.app/JapanQuiz";
+			};
+			name = Release;
+		};
+		D24F44CF1C92B1E500CDE60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JapanQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JapanQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D24F44D01C92B1E500CDE60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JapanQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScottKvitberg.JapanQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JapanQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24F44981C92B1E400CDE60E /* Build configuration list for PBXProject "JapanQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F44C61C92B1E500CDE60E /* Debug */,
+				D24F44C71C92B1E500CDE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24F44C81C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F44C91C92B1E500CDE60E /* Debug */,
+				D24F44CA1C92B1E500CDE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24F44CB1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F44CC1C92B1E500CDE60E /* Debug */,
+				D24F44CD1C92B1E500CDE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24F44CE1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24F44CF1C92B1E500CDE60E /* Debug */,
+				D24F44D01C92B1E500CDE60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24F44A81C92B1E400CDE60E /* JapanQuiz.xcdatamodel */,
+			);
+			currentVersion = D24F44A81C92B1E400CDE60E /* JapanQuiz.xcdatamodel */;
+			path = JapanQuiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24F44951C92B1E400CDE60E /* Project object */;
+}
