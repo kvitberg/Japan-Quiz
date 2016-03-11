@@ -1,25 +1,157 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ggT-jQ-cT4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="bGE-Dm-Zqf">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="ggT-jQ-cT4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vJC-h1-hiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="L9M-GA-awa" kind="relationship" relationship="rootViewController" id="tQ2-Jw-mXd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ey8-hd-f0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-437" y="424"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tEW-2d-eqn">
+            <objects>
+                <viewController storyboardIdentifier="menuViewController" id="L9M-GA-awa" customClass="ViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="Y03-yJ-Ucf"/>
+                        <viewControllerLayoutGuide type="bottom" id="BrZ-NN-cmf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="U95-ee-skY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Nv-Zxh">
+                                <rect key="frame" x="11" y="72" width="86" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unG-7P-r3G">
+                                <rect key="frame" x="77" y="137" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <segue destination="UC8-Zt-17G" kind="show" id="igP-Iu-pWK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kMl-Ch-RIP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rD2-Uz-U99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="335" y="430"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="frO-Ly-6Bm">
+            <objects>
+                <viewController storyboardIdentifier="settingsViewController" id="UC8-Zt-17G" customClass="SettingsViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pkB-7I-kvC"/>
+                        <viewControllerLayoutGuide type="bottom" id="uhW-4F-qvT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7oz-JO-Lfg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIo-43-u9S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1027" y="424"/>
+        </scene>
+        <!--Multiple Choice View Controller-->
+        <scene sceneID="Sqh-5C-xov">
+            <objects>
+                <viewController storyboardIdentifier="multipleChoiceViewController" id="pyp-Fr-Ol9" customClass="MultipleChoiceViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sq9-Qd-Gs2"/>
+                        <viewControllerLayoutGuide type="bottom" id="9xP-lv-BcH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WeX-ab-JXr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K0p-07-FbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="-263"/>
+        </scene>
+        <!--Right Or Wrong View Controller-->
+        <scene sceneID="ScL-2m-t7n">
+            <objects>
+                <viewController storyboardIdentifier="rightOrWrongViewController" id="MbT-B2-fzb" customClass="RightOrWrongViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DTF-73-Gqj"/>
+                        <viewControllerLayoutGuide type="bottom" id="73C-iE-Dia"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hQo-hk-PJI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nt3-3t-vup" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="424"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="Pp7-Qc-fYQ">
+            <objects>
+                <viewController storyboardIdentifier="imageViewController" id="v5n-GR-Mqf" customClass="ImageViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rxF-BZ-7yG"/>
+                        <viewControllerLayoutGuide type="bottom" id="gOa-K1-y1a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OZ3-vE-fKn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K1D-b3-iWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="1124"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="VTH-Kn-HSc">
+            <objects>
+                <viewController storyboardIdentifier="inputViewController" id="bZ9-Oj-7qw" customClass="InputViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ulp-b8-VZT"/>
+                        <viewControllerLayoutGuide type="bottom" id="uC7-dQ-uHk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kIv-7B-5NV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9b3-Op-gNr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="1802"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,11 @@
 		D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */; };
 		D24F44B91C92B1E500CDE60E /* JapanQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44B81C92B1E500CDE60E /* JapanQuizTests.swift */; };
 		D24F44C41C92B1E500CDE60E /* JapanQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */; };
+		D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44D61C92B59E00CDE60E /* RightOrWrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D24F44BF1C92B1E500CDE60E /* JapanQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanQuizUITests.swift; sourceTree = "<group>"; };
 		D24F44C51C92B1E500CDE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightOrWrongViewController.swift; sourceTree = "<group>"; };
+		D24F44D71C92B5B800CDE60E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D24F44D91C92B5C400CDE60E /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */,
 				D24F44AF1C92B1E400CDE60E /* Info.plist */,
 				D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */,
+				D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */,
+				D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */,
+				D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */,
+				D24F44D71C92B5B800CDE60E /* ImageViewController.swift */,
+				D24F44D91C92B5C400CDE60E /* InputViewController.swift */,
 			);
 			path = JapanQuiz;
 			sourceTree = "<group>";
@@ -261,6 +276,11 @@
 				D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */,
 				D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */,
 				D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */,
+				D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */,
+				D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */,
+				D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */,
+				D24F44D61C92B59E00CDE60E /* RightOrWrongViewController.swift in Sources */,
+				D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
