@@ -20,6 +20,9 @@
 		D24F44D61C92B59E00CDE60E /* RightOrWrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44DD1C946DA100CDE60E /* Configuration.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44E01C946EB700CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */; settings = {ASSET_TAGS = (); }; };
+		D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightOrWrongViewController.swift; sourceTree = "<group>"; };
 		D24F44D71C92B5B800CDE60E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D24F44D91C92B5C400CDE60E /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		D24F44DD1C946DA100CDE60E /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
+		D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 		D24F449F1C92B1E400CDE60E /* JapanQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D24F44E11C94883A00CDE60E /* Extentions */,
+				D24F44DC1C946BA000CDE60E /* Resources */,
 				D24F44DB1C92B79B00CDE60E /* Images */,
 				D24F44A01C92B1E400CDE60E /* AppDelegate.swift */,
 				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
@@ -122,6 +130,7 @@
 				D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */,
 				D24F44D71C92B5B800CDE60E /* ImageViewController.swift */,
 				D24F44D91C92B5C400CDE60E /* InputViewController.swift */,
+				D24F44DD1C946DA100CDE60E /* Configuration.swift */,
 			);
 			path = JapanQuiz;
 			sourceTree = "<group>";
@@ -149,6 +158,22 @@
 			children = (
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		D24F44DC1C946BA000CDE60E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D24F44E11C94883A00CDE60E /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
+				D24F44E01C946EB700CDE60E /* MultipleChoice.plist in Resources */,
 				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
 				D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */,
 			);
@@ -284,6 +310,8 @@
 				D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */,
 				D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */,
 				D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */,
+				D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */,
+				D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */,
 				D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */,
 				D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */,
 				D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */,

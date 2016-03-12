@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        loadQuizData()
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -26,7 +27,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    func loadQuizData(){
+        //Mulitple Choice Data
+        let pathMC = NSBundle.mainBundle().pathForResource("MultipleChoice", ofType: "plist")
+        let dictMC = NSDictionary(contentsOfFile: pathMC!)
+        mcArray = dictMC!["Questions"]!.mutableCopy() as? Array
+        
+        print(mcArray)
+        
+        
+    }
 
 }
 

@@ -96,6 +96,7 @@
                                             <constraint firstAttribute="height" constant="60" id="fzB-do-LSW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="tintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Multiple Choice">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -123,7 +124,7 @@
                                             <constraint firstAttribute="width" constant="300" id="OO0-mB-kgY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Right or Wrong">
+                                        <state key="normal" title="Hiragana">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
@@ -150,7 +151,7 @@
                                             <constraint firstAttribute="width" constant="300" id="J5U-4o-bnC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Single Choice">
+                                        <state key="normal" title="Katakana">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
@@ -177,7 +178,7 @@
                                             <constraint firstAttribute="width" constant="300" id="mhG-8K-3cp"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Image Quiz">
+                                        <state key="normal" title="Kanji">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
@@ -247,18 +248,29 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaY-VM-anb">
                                         <rect key="frame" x="0.0" y="0.0" width="568" height="206"/>
                                         <animations/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="75"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiG-vx-Z2J">
+                                        <rect key="frame" x="8" y="0.0" width="552" height="206"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="cardButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="e7T-8R-pX8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="uiG-vx-Z2J" firstAttribute="top" secondItem="1Ii-g0-G6e" secondAttribute="top" id="6LE-As-8wu"/>
                                     <constraint firstItem="YaY-VM-anb" firstAttribute="top" secondItem="1Ii-g0-G6e" secondAttribute="top" id="B5e-Xf-w1s"/>
+                                    <constraint firstItem="uiG-vx-Z2J" firstAttribute="leading" secondItem="1Ii-g0-G6e" secondAttribute="leading" constant="8" id="CDO-tk-Rxs"/>
+                                    <constraint firstAttribute="bottom" secondItem="uiG-vx-Z2J" secondAttribute="bottom" id="Iuf-0P-deb"/>
                                     <constraint firstAttribute="bottom" secondItem="YaY-VM-anb" secondAttribute="bottom" id="Kjc-j3-rm0"/>
                                     <constraint firstItem="YaY-VM-anb" firstAttribute="leading" secondItem="1Ii-g0-G6e" secondAttribute="leading" id="PsO-54-tJd"/>
                                     <constraint firstAttribute="trailing" secondItem="YaY-VM-anb" secondAttribute="trailing" id="lFP-gg-JyI"/>
+                                    <constraint firstAttribute="trailing" secondItem="uiG-vx-Z2J" secondAttribute="trailing" constant="8" id="vzl-ca-vcy"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0IN-8D-wtj">
@@ -291,6 +303,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="AnswerButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="f8m-1D-SIb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0H-dw-AEw">
                                         <rect key="frame" x="288" y="0.0" width="272" height="99"/>
@@ -299,6 +314,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="AnswerButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="tFb-6U-OJZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dV-Z2-hoL">
                                         <rect key="frame" x="8" y="107" width="272" height="99"/>
@@ -307,6 +325,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="AnswerButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="z2v-Jb-y06"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bN1-24-VLa">
                                         <rect key="frame" x="288" y="107" width="272" height="99"/>
@@ -315,6 +336,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="AnswerButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="NUa-jb-rXH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -358,6 +382,14 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="cardButton" destination="uiG-vx-Z2J" id="3Yx-y0-xmQ"/>
+                        <outlet property="questionLabel" destination="YaY-VM-anb" id="lkl-84-W2G"/>
+                        <outletCollection property="answerButtons" destination="tyN-nR-ZHw" collectionClass="NSMutableArray" id="cyJ-IL-ULP"/>
+                        <outletCollection property="answerButtons" destination="9dV-Z2-hoL" collectionClass="NSMutableArray" id="Wc9-Wa-qXl"/>
+                        <outletCollection property="answerButtons" destination="V0H-dw-AEw" collectionClass="NSMutableArray" id="ydn-RH-64T"/>
+                        <outletCollection property="answerButtons" destination="bN1-24-VLa" collectionClass="NSMutableArray" id="Ii4-DC-ZmY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0p-07-FbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
