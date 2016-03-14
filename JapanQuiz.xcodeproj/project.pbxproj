@@ -21,8 +21,10 @@
 		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44DD1C946DA100CDE60E /* Configuration.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44E01C946EB700CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */; settings = {ASSET_TAGS = (); }; };
 		D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */; settings = {ASSET_TAGS = (); }; };
+		D24F44E91C96D53700CDE60E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E81C96D53700CDE60E /* Device.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +65,10 @@
 		D24F44D71C92B5B800CDE60E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D24F44D91C92B5C400CDE60E /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		D24F44DD1C946DA100CDE60E /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
 		D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
+		D24F44E81C96D53700CDE60E /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				D24F44DB1C92B79B00CDE60E /* Images */,
 				D24F44A01C92B1E400CDE60E /* AppDelegate.swift */,
 				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
+				D24F44E81C96D53700CDE60E /* Device.swift */,
 				D24F44A41C92B1E400CDE60E /* Main.storyboard */,
 				D24F44AA1C92B1E400CDE60E /* Assets.xcassets */,
 				D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */,
@@ -163,7 +168,7 @@
 		D24F44DC1C946BA000CDE60E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D24F44DF1C946EB700CDE60E /* MultipleChoice.plist */,
+				D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */,
+				D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */,
 			);
 			name = Extentions;
 			sourceTree = "<group>";
@@ -280,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
-				D24F44E01C946EB700CDE60E /* MultipleChoice.plist in Resources */,
+				D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */,
 				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
 				D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */,
 			);
@@ -307,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24F44E91C96D53700CDE60E /* Device.swift in Sources */,
+				D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */,
 				D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */,
 				D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */,
 				D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */,

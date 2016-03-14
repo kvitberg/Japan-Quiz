@@ -17,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        if (UIDevice.currentDevice().userInterfaceIdiom == .Phone){
+            //iPhone
+            if Device.IS_3_5_INCHES(){
+                //iPhone 4
+            }else if Device.IS_4_INCHES(){
+                //iPhone 5
+            }else if Device.IS_4_7_INCHES(){
+                //iPhone 6
+            }else if Device.IS_5_5_INCHES(){
+                //iPhone 6+
+            }
+        } else {
+            //iPad
+            
+        }
+        
+        
         return true
     }
 

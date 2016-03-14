@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var highscoreLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,12 @@ class ViewController: UIViewController {
         super.viewWillAppear(true)
         
         navigationController?.setNavigationBarHidden(true, animated: false)
+        let score = NSUserDefaults.standardUserDefaults().integerForKey("score")
+        let highscore = NSUserDefaults.standardUserDefaults().integerForKey("highscore")
+        
+        scoreLabel.text = "Score: \(score)"
+        highscoreLabel.text = "Highscore: \(highscore)"
+        
 
     }
     
