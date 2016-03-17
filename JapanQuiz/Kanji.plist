@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>一</string>
+			<key>StrokeCount</key>
+			<integer>1</integer>
+			<key>JapaneseReading</key>
+			<array>
+				<string>いち</string>
+			</array>
+			<key>RomanjiReadings</key>
+			<array>
+				<string>Ichi</string>
+				<string>Itsu</string>
+				<string>Hito(tsu)</string>
+			</array>
+			<key>CorrectAnswer</key>
+			<string></string>
+			<key>RomanjiAnswers</key>
+			<array>
+				<string>Ichi, Itsu, Hito(tsu)</string>
+				<string>Itsu</string>
+				<string>Hito(tsu), Itchi</string>
+			</array>
+			<key>HiraganaAnswers</key>
+			<array>
+				<string>いち</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

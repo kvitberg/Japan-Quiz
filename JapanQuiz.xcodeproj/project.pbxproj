@@ -25,6 +25,8 @@
 		D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */; settings = {ASSET_TAGS = (); }; };
 		D24F44E91C96D53700CDE60E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E81C96D53700CDE60E /* Device.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44EC1C96DAE100CDE60E /* Hiragana.plist */; settings = {ASSET_TAGS = (); }; };
+		D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F21C9AE15600CDE60E /* Kanji.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
 		D24F44E81C96D53700CDE60E /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
+		D24F44EC1C96DAE100CDE60E /* Hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hiragana.plist; sourceTree = "<group>"; };
+		D24F44F21C9AE15600CDE60E /* Kanji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Kanji.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +172,9 @@
 		D24F44DC1C946BA000CDE60E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D24F44EC1C96DAE100CDE60E /* Hiragana.plist */,
 				D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */,
+				D24F44F21C9AE15600CDE60E /* Kanji.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,7 +293,9 @@
 			files = (
 				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
 				D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */,
+				D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */,
 				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
+				D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */,
 				D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

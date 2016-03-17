@@ -43,6 +43,18 @@ class ViewController: UIViewController {
         let dictMC = NSDictionary(contentsOfFile: pathMC!)
         mcArray = dictMC!["Questions"]!.mutableCopy() as? Array
         
+        //Hiragana Data
+        let pathHiragana = NSBundle.mainBundle().pathForResource("Hiragana", ofType: "plist")
+        let dictHiragana = NSDictionary(contentsOfFile: pathHiragana!)
+        mcArray = dictHiragana!["Questions"]!.mutableCopy() as? Array
+        
+        /*
+            Todo:
+                -Add path and files for Kanji
+                -Add path and files for Katakana
+        */
+        
+        
         print(mcArray)
         
         
