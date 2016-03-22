@@ -27,6 +27,7 @@
 		D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44EC1C96DAE100CDE60E /* Hiragana.plist */; settings = {ASSET_TAGS = (); }; };
 		D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F21C9AE15600CDE60E /* Kanji.plist */; settings = {ASSET_TAGS = (); }; };
+		D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F41CA1545300CDE60E /* Katakana.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 		D24F44EC1C96DAE100CDE60E /* Hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hiragana.plist; sourceTree = "<group>"; };
 		D24F44F21C9AE15600CDE60E /* Kanji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Kanji.plist; sourceTree = "<group>"; };
+		D24F44F41CA1545300CDE60E /* Katakana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Katakana.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		D24F44DC1C946BA000CDE60E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D24F44F41CA1545300CDE60E /* Katakana.plist */,
 				D24F44EC1C96DAE100CDE60E /* Hiragana.plist */,
 				D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */,
 				D24F44F21C9AE15600CDE60E /* Kanji.plist */,
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
+				D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */,
 				D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */,
 				D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */,
 				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
