@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JapanQuiz/MultipleChoiceViewController.swift"
-            timestampString = "479642874.739455"
+            timestampString = "481646069.34255"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "AnswerButtonHandler(_:)"
             landmarkType = "5">
          </BreakpointContent>

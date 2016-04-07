@@ -11,8 +11,6 @@ import UIKit
 class MultipleChoiceViewController: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
-    
-    
     @IBOutlet weak var progressView: UIProgressView!
     
     @IBOutlet var answerButtons: [UIButton]!
@@ -22,9 +20,14 @@ class MultipleChoiceViewController: UIViewController {
     @IBAction func AnswerButtonHandler(sender: UIButton) {
         timer.invalidate()
         if sender.titleLabel!.text == correctAnswer{
+            self.cardButton.titleLabel?.text = "Next"
+            
+            print("answerbutton")
             print("Correct")
             currentScore++
             cardButton.enabled = true
+            
+            
         }else{
             sender.backgroundColor = UIColor.alizarin()
             print("Wrong")
@@ -42,6 +45,8 @@ class MultipleChoiceViewController: UIViewController {
     
     @IBAction func cardButtonHandler(sender: UIButton) {
         cardButton.enabled = true
+        self.cardButton.titleLabel?.text = "Next"
+        print("cardbuttonhandler")
         if questionIdx < mcArray!.count - 1 {
             questionIdx++
         }else{
@@ -65,7 +70,7 @@ class MultipleChoiceViewController: UIViewController {
         // Do any additional setup after loading the view.
         progressView.transform = CGAffineTransformScale(progressView.transform, 1, 10)
         
-        cardButton.enabled = false
+         NSNotificationCenter.defaultCenter().addObserver(self, selector: "appBecameActive", name: UIApplicationDidBecomeActiveNotification, object: nil)
         
         mcArray!.shuffle()
         nextQuestion()
@@ -78,6 +83,10 @@ class MultipleChoiceViewController: UIViewController {
     }
     
     func nextQuestion(){
+        self.cardButton.enabled = false
+        self.cardButton.backgroundColor = UIColor.clearColor()
+        
+        
         let currentQuestion = mcArray![questionIdx]
         
         answers = currentQuestion["Answers"] as! [String]
@@ -157,6 +166,9 @@ class MultipleChoiceViewController: UIViewController {
     func backToMenu(){
         navigationController?.popToRootViewControllerAnimated(true)
         
+    }
+    func appBecameActive() {
+        self.cardButton.enabled = false
         
     }
 

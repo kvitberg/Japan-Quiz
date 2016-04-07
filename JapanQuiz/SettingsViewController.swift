@@ -31,15 +31,15 @@ class SettingsViewController: UIViewController {
             vc = storyboard?.instantiateViewControllerWithIdentifier("multipleChoiceViewController") as! MultipleChoiceViewController
             break
         case 1:
-            //Right or wrong quiz
-            vc = storyboard?.instantiateViewControllerWithIdentifier("rightOrWrongViewController") as! RightOrWrongViewController
+            //Hiragana quiz
+            vc = storyboard?.instantiateViewControllerWithIdentifier("hiraganaViewController") as! HiraganaViewController
             break
         case 2:
-            //Single Choice quiz
+            //Katakana quiz
             vc = storyboard?.instantiateViewControllerWithIdentifier("inputViewController") as! InputViewController
             break
         case 3:
-            //Image quiz
+            //Kanji quiz
             vc = storyboard?.instantiateViewControllerWithIdentifier("imageViewController") as! ImageViewController
             break
         default:
@@ -70,21 +70,5 @@ class SettingsViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: false)
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

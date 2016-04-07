@@ -17,7 +17,7 @@
 		D24F44C41C92B1E500CDE60E /* JapanQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */; };
 		D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44D61C92B59E00CDE60E /* RightOrWrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44D61C92B59E00CDE60E /* HiraganaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44DD1C946DA100CDE60E /* Configuration.swift */; settings = {ASSET_TAGS = (); }; };
@@ -64,7 +64,7 @@
 		D24F44C51C92B1E500CDE60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
-		D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightOrWrongViewController.swift; sourceTree = "<group>"; };
+		D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiraganaViewController.swift; sourceTree = "<group>"; };
 		D24F44D71C92B5B800CDE60E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D24F44D91C92B5C400CDE60E /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		D24F44DD1C946DA100CDE60E /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */,
 				D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */,
 				D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */,
-				D24F44D51C92B59E00CDE60E /* RightOrWrongViewController.swift */,
+				D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */,
 				D24F44D71C92B5B800CDE60E /* ImageViewController.swift */,
 				D24F44D91C92B5C400CDE60E /* InputViewController.swift */,
 				D24F44DD1C946DA100CDE60E /* Configuration.swift */,
@@ -335,7 +335,7 @@
 				D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */,
 				D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */,
 				D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */,
-				D24F44D61C92B59E00CDE60E /* RightOrWrongViewController.swift in Sources */,
+				D24F44D61C92B59E00CDE60E /* HiraganaViewController.swift in Sources */,
 				D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +563,7 @@
 				D24F44CA1C92B1E500CDE60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24F44CB1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +572,7 @@
 				D24F44CD1C92B1E500CDE60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24F44CE1C92B1E500CDE60E /* Build configuration list for PBXNativeTarget "JapanQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +581,7 @@
 				D24F44D01C92B1E500CDE60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

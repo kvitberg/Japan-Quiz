@@ -1,5 +1,5 @@
 //
-//  RightOrWrongViewController.swift
+//  HiraganaViewController.swift
 //  JapanQuiz
 //
 //  Created by Scott  on 11/03/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RightOrWrongViewController: UIViewController {
+class HiraganaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
