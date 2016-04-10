@@ -19,9 +19,9 @@ class MultipleChoiceViewController: UIViewController {
     
     @IBAction func AnswerButtonHandler(sender: UIButton) {
         timer.invalidate()
+        
         if sender.titleLabel!.text == correctAnswer{
-            self.cardButton.titleLabel?.text = "Next"
-            
+            self.cardButton.setTitle("つぎの", forState: .Normal)
             print("answerbutton")
             print("Correct")
             currentScore++
@@ -45,7 +45,7 @@ class MultipleChoiceViewController: UIViewController {
     
     @IBAction func cardButtonHandler(sender: UIButton) {
         cardButton.enabled = true
-        self.cardButton.titleLabel?.text = "Next"
+        
         print("cardbuttonhandler")
         if questionIdx < mcArray!.count - 1 {
             questionIdx++
@@ -69,8 +69,10 @@ class MultipleChoiceViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         progressView.transform = CGAffineTransformScale(progressView.transform, 1, 10)
+
         
          NSNotificationCenter.defaultCenter().addObserver(self, selector: "appBecameActive", name: UIApplicationDidBecomeActiveNotification, object: nil)
+ 
         
         mcArray!.shuffle()
         nextQuestion()
@@ -84,6 +86,7 @@ class MultipleChoiceViewController: UIViewController {
     
     func nextQuestion(){
         self.cardButton.enabled = false
+        self.cardButton.setTitle("", forState: .Normal)
         self.cardButton.backgroundColor = UIColor.clearColor()
         
         
@@ -150,7 +153,7 @@ class MultipleChoiceViewController: UIViewController {
         if slow{
             title = "Too slow"
         } else{
-            title = "Wrong answer"
+            title = "Too bad"
         }
         
         

@@ -291,6 +291,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiG-vx-Z2J">
                                         <rect key="frame" x="250" y="50" width="310" height="106"/>
                                         <animations/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="cardButtonHandler:" destination="pyp-Fr-Ol9" eventType="touchUpInside" id="e7T-8R-pX8"/>
