@@ -28,6 +28,7 @@
 		D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44EC1C96DAE100CDE60E /* Hiragana.plist */; settings = {ASSET_TAGS = (); }; };
 		D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F21C9AE15600CDE60E /* Kanji.plist */; settings = {ASSET_TAGS = (); }; };
 		D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F41CA1545300CDE60E /* Katakana.plist */; settings = {ASSET_TAGS = (); }; };
+		D2C44D891CBB812B00787139 /* HiraganaMonographsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D24F44EC1C96DAE100CDE60E /* Hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hiragana.plist; sourceTree = "<group>"; };
 		D24F44F21C9AE15600CDE60E /* Kanji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Kanji.plist; sourceTree = "<group>"; };
 		D24F44F41CA1545300CDE60E /* Katakana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Katakana.plist; sourceTree = "<group>"; };
+		D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiraganaMonographsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
 				D24F44E81C96D53700CDE60E /* Device.swift */,
 				D24F44A41C92B1E400CDE60E /* Main.storyboard */,
+				D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */,
 				D24F44AA1C92B1E400CDE60E /* Assets.xcassets */,
 				D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */,
 				D24F44AF1C92B1E400CDE60E /* Info.plist */,
@@ -332,6 +335,7 @@
 				D24F44A91C92B1E400CDE60E /* JapanQuiz.xcdatamodeld in Sources */,
 				D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */,
 				D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */,
+				D2C44D891CBB812B00787139 /* HiraganaMonographsViewController.swift in Sources */,
 				D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */,
 				D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */,
 				D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */,

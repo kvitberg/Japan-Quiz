@@ -438,6 +438,7 @@
         <!--Hiragana View Controller-->
         <scene sceneID="ScL-2m-t7n">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nt3-3t-vup" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="hiraganaViewController" id="MbT-B2-fzb" customClass="HiraganaViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DTF-73-Gqj"/>
@@ -457,6 +458,9 @@
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="hiraganaPlayButtonHandler:" destination="MbT-B2-fzb" eventType="touchUpInside" id="d3g-Cr-Y7G"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mf2-KD-Ccc">
                                 <rect key="frame" x="20" y="72" width="560" height="88"/>
@@ -469,10 +473,13 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <color key="tintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Monographs / Gojūon">
+                                        <state key="normal" title="Monographs ">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hiraganaGameModeButtonHandler:" destination="MbT-B2-fzb" eventType="touchUpInside" id="r0P-pn-KtZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -495,10 +502,13 @@
                                             <constraint firstAttribute="height" constant="60" id="udP-Xb-4l3"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Diacritics / Gojūon with (han)dakuten)">
+                                        <state key="normal" title="Diacritics">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hiraganaGameModeButtonHandler:" destination="MbT-B2-fzb" eventType="touchUpInside" id="W6T-fN-ime"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -521,10 +531,13 @@
                                             <constraint firstAttribute="height" constant="60" id="Ui5-p6-kOC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Digraphs / Yōon">
+                                        <state key="normal" title="Digraphs">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hiraganaGameModeButtonHandler:" destination="MbT-B2-fzb" eventType="touchUpInside" id="XI4-Bx-tdp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -547,10 +560,13 @@
                                             <constraint firstAttribute="height" constant="60" id="0G7-U8-EdI"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <state key="normal" title="Digraphs diacritics / Yōon with (han)dakuten">
+                                        <state key="normal" title="Digraphs diacritics">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hiraganaGameModeButtonHandler:" destination="MbT-B2-fzb" eventType="touchUpInside" id="6ey-qZ-36E"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -593,58 +609,25 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outletCollection property="hiraganaGameModeButtons" destination="zKs-CZ-Acn" collectionClass="NSMutableArray" id="sYd-O3-56c"/>
+                        <outletCollection property="hiraganaGameModeButtons" destination="EuG-cC-Qha" collectionClass="NSMutableArray" id="gpo-rE-Q3g"/>
+                        <outletCollection property="hiraganaGameModeButtons" destination="ZbP-wg-kve" collectionClass="NSMutableArray" id="9u0-ZG-gzc"/>
+                        <outletCollection property="hiraganaGameModeButtons" destination="nHQ-hw-VtC" collectionClass="NSMutableArray" id="7zI-J4-4f7"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nt3-3t-vup" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1717" y="424"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="KJN-tW-ORe">
+        <!--Hiragana Monographs View Controller-->
+        <scene sceneID="XBG-AJ-Uoq">
             <objects>
-                <viewController id="rkd-tq-2sN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hiraganaMonographsViewController" id="6Zj-CN-OYU" customClass="HiraganaMonographsViewController" customModule="JapanQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Omd-Ti-DOP"/>
-                        <viewControllerLayoutGuide type="bottom" id="obN-ng-Npb"/>
+                        <viewControllerLayoutGuide type="top" id="Q7W-8R-r4Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ED-sB-KLe"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6Jn-c9-04h">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TQD-XP-rXG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1717" y="-921"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="NOZ-RG-nIC">
-            <objects>
-                <viewController id="fOH-RU-YUx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lpu-v0-vpI"/>
-                        <viewControllerLayoutGuide type="bottom" id="aGb-fc-0B5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="mqM-SD-FVD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TUp-5K-hdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2522" y="-263"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="LPR-j0-VRk">
-            <objects>
-                <viewController id="k3Q-Ll-eyR" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="vzW-eA-uB8"/>
-                        <viewControllerLayoutGuide type="bottom" id="8rt-iF-bvP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="sam-KO-rSj">
+                    <view key="view" contentMode="scaleToFill" id="Afz-or-anM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
@@ -652,28 +635,9 @@
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kj7-F6-za1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="As1-Ds-bh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2522" y="430"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="QLR-c4-HxR">
-            <objects>
-                <viewController id="hPH-6x-qFg" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QzJ-WB-WSf"/>
-                        <viewControllerLayoutGuide type="bottom" id="wJH-hU-CWL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xqh-Iw-0sy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3fZ-ba-ePR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2522" y="1124"/>
+            <point key="canvasLocation" x="2406" y="-263"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="Pp7-Qc-fYQ">
