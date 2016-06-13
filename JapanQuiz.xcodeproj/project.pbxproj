@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5447BF131D0A2B1F000EDE4C /* HiraganaMonographs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF121D0A2B1F000EDE4C /* HiraganaMonographs.plist */; };
+		5447BF151D0A2BAE000EDE4C /* HiraganaDiacritics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF141D0A2BAE000EDE4C /* HiraganaDiacritics.plist */; };
+		5447BF171D0A2C73000EDE4C /* HiraganaDigraphs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF161D0A2C73000EDE4C /* HiraganaDigraphs.plist */; };
+		5447BF191D0A2D22000EDE4C /* HiraganaDiacriticsDiagraphs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF181D0A2D22000EDE4C /* HiraganaDiacriticsDiagraphs.plist */; };
+		5447BF1B1D0A2D95000EDE4C /* KatakanaDiacritics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF1A1D0A2D95000EDE4C /* KatakanaDiacritics.plist */; };
+		5447BF1D1D0A2E16000EDE4C /* KatakanaMonographs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF1C1D0A2E16000EDE4C /* KatakanaMonographs.plist */; };
+		5447BF1F1D0A2E46000EDE4C /* KatakanaDiagraphs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF1E1D0A2E46000EDE4C /* KatakanaDiagraphs.plist */; };
+		5447BF211D0A2E95000EDE4C /* KatakanaDiacriticsDiagraphs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF201D0A2E95000EDE4C /* KatakanaDiacriticsDiagraphs.plist */; };
+		5447BF251D0AAE7A000EDE4C /* QuizCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5447BF241D0AAE7A000EDE4C /* QuizCustomView.xib */; };
+		5447BF281D0ACE8C000EDE4C /* QuizCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447BF271D0ACE8C000EDE4C /* QuizCustomView.swift */; };
 		D24F44A11C92B1E400CDE60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44A01C92B1E400CDE60E /* AppDelegate.swift */; };
 		D24F44A31C92B1E400CDE60E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44A21C92B1E400CDE60E /* ViewController.swift */; };
 		D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F44A41C92B1E400CDE60E /* Main.storyboard */; };
@@ -15,20 +25,20 @@
 		D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */; };
 		D24F44B91C92B1E500CDE60E /* JapanQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44B81C92B1E500CDE60E /* JapanQuizTests.swift */; };
 		D24F44C41C92B1E500CDE60E /* JapanQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44C31C92B1E500CDE60E /* JapanQuizUITests.swift */; };
-		D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44D61C92B59E00CDE60E /* HiraganaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44DD1C946DA100CDE60E /* Configuration.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */; settings = {ASSET_TAGS = (); }; };
-		D24F44E91C96D53700CDE60E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E81C96D53700CDE60E /* Device.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */; settings = {ASSET_TAGS = (); }; };
-		D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44EC1C96DAE100CDE60E /* Hiragana.plist */; settings = {ASSET_TAGS = (); }; };
-		D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F21C9AE15600CDE60E /* Kanji.plist */; settings = {ASSET_TAGS = (); }; };
-		D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F41CA1545300CDE60E /* Katakana.plist */; settings = {ASSET_TAGS = (); }; };
-		D2C44D891CBB812B00787139 /* HiraganaMonographsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */; };
+		D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */; };
+		D24F44D61C92B59E00CDE60E /* HiraganaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */; };
+		D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D71C92B5B800CDE60E /* ImageViewController.swift */; };
+		D24F44DA1C92B5C400CDE60E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44D91C92B5C400CDE60E /* InputViewController.swift */; };
+		D24F44DE1C946DA100CDE60E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44DD1C946DA100CDE60E /* Configuration.swift */; };
+		D24F44E51C94BAF200CDE60E /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E41C94BAF200CDE60E /* UIColor+CustomColors.swift */; };
+		D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */; };
+		D24F44E91C96D53700CDE60E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44E81C96D53700CDE60E /* Device.swift */; };
+		D24F44EB1C96D69900CDE60E /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F44EA1C96D69900CDE60E /* Array+Shuffle.swift */; };
+		D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44EC1C96DAE100CDE60E /* Hiragana.plist */; };
+		D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F21C9AE15600CDE60E /* Kanji.plist */; };
+		D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = D24F44F41CA1545300CDE60E /* Katakana.plist */; };
+		D2C44D891CBB812B00787139 /* HiraganaMonographsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5447BF121D0A2B1F000EDE4C /* HiraganaMonographs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HiraganaMonographs.plist; sourceTree = "<group>"; };
+		5447BF141D0A2BAE000EDE4C /* HiraganaDiacritics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HiraganaDiacritics.plist; sourceTree = "<group>"; };
+		5447BF161D0A2C73000EDE4C /* HiraganaDigraphs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HiraganaDigraphs.plist; sourceTree = "<group>"; };
+		5447BF181D0A2D22000EDE4C /* HiraganaDiacriticsDiagraphs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HiraganaDiacriticsDiagraphs.plist; sourceTree = "<group>"; };
+		5447BF1A1D0A2D95000EDE4C /* KatakanaDiacritics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KatakanaDiacritics.plist; sourceTree = "<group>"; };
+		5447BF1C1D0A2E16000EDE4C /* KatakanaMonographs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KatakanaMonographs.plist; sourceTree = "<group>"; };
+		5447BF1E1D0A2E46000EDE4C /* KatakanaDiagraphs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KatakanaDiagraphs.plist; sourceTree = "<group>"; };
+		5447BF201D0A2E95000EDE4C /* KatakanaDiacriticsDiagraphs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KatakanaDiacriticsDiagraphs.plist; sourceTree = "<group>"; };
+		5447BF241D0AAE7A000EDE4C /* QuizCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizCustomView.xib; sourceTree = "<group>"; };
+		5447BF271D0ACE8C000EDE4C /* QuizCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCustomView.swift; sourceTree = "<group>"; };
 		D24F449D1C92B1E400CDE60E /* JapanQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24F44A01C92B1E400CDE60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24F44A21C92B1E400CDE60E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +124,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5447BF0F1D0A29F1000EDE4C /* QuizViewControllers  */ = {
+			isa = PBXGroup;
+			children = (
+				D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */,
+				D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */,
+			);
+			name = "QuizViewControllers ";
+			sourceTree = "<group>";
+		};
+		5447BF221D0A2EC9000EDE4C /* Katakana */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44F41CA1545300CDE60E /* Katakana.plist */,
+				5447BF1C1D0A2E16000EDE4C /* KatakanaMonographs.plist */,
+				5447BF1A1D0A2D95000EDE4C /* KatakanaDiacritics.plist */,
+				5447BF1E1D0A2E46000EDE4C /* KatakanaDiagraphs.plist */,
+				5447BF201D0A2E95000EDE4C /* KatakanaDiacriticsDiagraphs.plist */,
+			);
+			name = Katakana;
+			sourceTree = "<group>";
+		};
+		5447BF231D0A2ED0000EDE4C /* Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				D24F44EC1C96DAE100CDE60E /* Hiragana.plist */,
+				5447BF121D0A2B1F000EDE4C /* HiraganaMonographs.plist */,
+				5447BF141D0A2BAE000EDE4C /* HiraganaDiacritics.plist */,
+				5447BF161D0A2C73000EDE4C /* HiraganaDigraphs.plist */,
+				5447BF181D0A2D22000EDE4C /* HiraganaDiacriticsDiagraphs.plist */,
+			);
+			name = Hiragana;
+			sourceTree = "<group>";
+		};
+		5447BF261D0AB042000EDE4C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5447BF241D0AAE7A000EDE4C /* QuizCustomView.xib */,
+				5447BF271D0ACE8C000EDE4C /* QuizCustomView.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		D24F44941C92B1E400CDE60E = {
 			isa = PBXGroup;
 			children = (
@@ -134,17 +196,17 @@
 				D24F44A21C92B1E400CDE60E /* ViewController.swift */,
 				D24F44E81C96D53700CDE60E /* Device.swift */,
 				D24F44A41C92B1E400CDE60E /* Main.storyboard */,
-				D2C44D881CBB812B00787139 /* HiraganaMonographsViewController.swift */,
 				D24F44AA1C92B1E400CDE60E /* Assets.xcassets */,
 				D24F44AC1C92B1E400CDE60E /* LaunchScreen.storyboard */,
 				D24F44AF1C92B1E400CDE60E /* Info.plist */,
 				D24F44A71C92B1E400CDE60E /* JapanQuiz.xcdatamodeld */,
 				D24F44D11C92B56F00CDE60E /* SettingsViewController.swift */,
-				D24F44D31C92B58A00CDE60E /* MultipleChoiceViewController.swift */,
+				5447BF0F1D0A29F1000EDE4C /* QuizViewControllers  */,
 				D24F44D51C92B59E00CDE60E /* HiraganaViewController.swift */,
 				D24F44D71C92B5B800CDE60E /* ImageViewController.swift */,
 				D24F44D91C92B5C400CDE60E /* InputViewController.swift */,
 				D24F44DD1C946DA100CDE60E /* Configuration.swift */,
+				5447BF261D0AB042000EDE4C /* CustomView */,
 			);
 			path = JapanQuiz;
 			sourceTree = "<group>";
@@ -177,8 +239,8 @@
 		D24F44DC1C946BA000CDE60E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D24F44F41CA1545300CDE60E /* Katakana.plist */,
-				D24F44EC1C96DAE100CDE60E /* Hiragana.plist */,
+				5447BF231D0A2ED0000EDE4C /* Hiragana */,
+				5447BF221D0A2EC9000EDE4C /* Katakana */,
 				D24F44E61C95D11D00CDE60E /* MultipleChoice.plist */,
 				D24F44F21C9AE15600CDE60E /* Kanji.plist */,
 			);
@@ -299,10 +361,19 @@
 			files = (
 				D24F44AE1C92B1E400CDE60E /* LaunchScreen.storyboard in Resources */,
 				D24F44F51CA1545400CDE60E /* Katakana.plist in Resources */,
+				5447BF251D0AAE7A000EDE4C /* QuizCustomView.xib in Resources */,
 				D24F44E71C95D11D00CDE60E /* MultipleChoice.plist in Resources */,
+				5447BF131D0A2B1F000EDE4C /* HiraganaMonographs.plist in Resources */,
+				5447BF1F1D0A2E46000EDE4C /* KatakanaDiagraphs.plist in Resources */,
+				5447BF151D0A2BAE000EDE4C /* HiraganaDiacritics.plist in Resources */,
 				D24F44F31C9AE15600CDE60E /* Kanji.plist in Resources */,
+				5447BF1D1D0A2E16000EDE4C /* KatakanaMonographs.plist in Resources */,
 				D24F44AB1C92B1E400CDE60E /* Assets.xcassets in Resources */,
+				5447BF171D0A2C73000EDE4C /* HiraganaDigraphs.plist in Resources */,
+				5447BF1B1D0A2D95000EDE4C /* KatakanaDiacritics.plist in Resources */,
+				5447BF191D0A2D22000EDE4C /* HiraganaDiacriticsDiagraphs.plist in Resources */,
 				D24F44ED1C96DAE100CDE60E /* Hiragana.plist in Resources */,
+				5447BF211D0A2E95000EDE4C /* KatakanaDiacriticsDiagraphs.plist in Resources */,
 				D24F44A61C92B1E400CDE60E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +411,7 @@
 				D24F44D81C92B5B800CDE60E /* ImageViewController.swift in Sources */,
 				D24F44D21C92B56F00CDE60E /* SettingsViewController.swift in Sources */,
 				D24F44D61C92B59E00CDE60E /* HiraganaViewController.swift in Sources */,
+				5447BF281D0ACE8C000EDE4C /* QuizCustomView.swift in Sources */,
 				D24F44D41C92B58A00CDE60E /* MultipleChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

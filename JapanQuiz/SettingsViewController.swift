@@ -8,6 +8,8 @@
 
 import UIKit
 
+//Main menu story board
+
 class SettingsViewController: UIViewController {
 
     @IBOutlet var gameModeButtons: [UIButton]!

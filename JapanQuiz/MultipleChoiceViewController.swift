@@ -24,7 +24,7 @@ class MultipleChoiceViewController: UIViewController {
             self.cardButton.setTitle("つぎの", forState: .Normal)
             print("answerbutton")
             print("Correct")
-            currentScore++
+            currentScore += 1
             cardButton.enabled = true
             
             
@@ -48,7 +48,7 @@ class MultipleChoiceViewController: UIViewController {
         
         print("cardbuttonhandler")
         if questionIdx < mcArray!.count - 1 {
-            questionIdx++
+            questionIdx += 1
         }else{
             questionIdx = 0
         }

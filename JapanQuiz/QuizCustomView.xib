@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QuizCustomView" customModule="JapanQuiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZc-Yh-Nfn">
+                    <rect key="frame" x="0.0" y="300" width="414" height="285"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pC1-OH-oWt">
+                            <rect key="frame" x="214" y="8" width="192" height="108"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="answerButtonHandler:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gea-Vd-4QT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o03-Ce-r1f">
+                            <rect key="frame" x="8" y="8" width="192" height="108"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="answerButtonHandler:" destination="iN0-l3-epB" eventType="touchUpInside" id="avn-u2-isM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovx-WM-w0L">
+                            <rect key="frame" x="8" y="130" width="192" height="108"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="answerButtonHandler:" destination="iN0-l3-epB" eventType="touchUpInside" id="jW8-hS-ZqN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57v-To-H89">
+                            <rect key="frame" x="214" y="130" width="192" height="108"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.6436319694" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="answerButtonHandler:" destination="iN0-l3-epB" eventType="touchUpInside" id="zP0-fB-k5q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rb9-eJ-ZE1">
+                    <rect key="frame" x="8" y="16" width="398" height="237"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YM0-0B-iNc">
+                            <rect key="frame" x="-14" y="44" width="427" height="154"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="97"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YM8-LC-hkS">
+                            <rect key="frame" x="177" y="131" width="221" height="106"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="nextButtonHandler:" destination="iN0-l3-epB" eventType="touchUpInside" id="rFc-6U-DgI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cbV-jr-3E3">
+                    <rect key="frame" x="12" y="680" width="390" height="48"/>
+                    <subviews>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-TI-6cZ">
+                            <rect key="frame" x="8" y="23" width="552" height="2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="T0P-Rb-M7O"/>
+                            </constraints>
+                            <color key="progressTintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </progressView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <connections>
+                <outlet property="questionLabel" destination="YM0-0B-iNc" id="Y1D-Jg-43i"/>
+                <outletCollection property="answerButtons" destination="o03-Ce-r1f" collectionClass="NSMutableArray" id="ooa-wP-quW"/>
+                <outletCollection property="answerButtons" destination="pC1-OH-oWt" collectionClass="NSMutableArray" id="08C-v1-91C"/>
+                <outletCollection property="answerButtons" destination="ovx-WM-w0L" collectionClass="NSMutableArray" id="TXn-pj-RWq"/>
+                <outletCollection property="answerButtons" destination="57v-To-H89" collectionClass="NSMutableArray" id="Cq4-Vc-nua"/>
+            </connections>
+        </view>
+    </objects>
+</document>
